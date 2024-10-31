@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Coding Adventures with Axel
 email: axel@vanabkou.de
-description: >-
-A look into the rabbithole that is programming. 
-The many wondrous aspects of coding will be explored in multiple projects.
-baseurl: /docs # the subpath of your site, e.g. /blog
+description: | #fasjkdhfka
+  A look into the rabbithole that is programming.
+  The many wondrous aspects of coding will be explored in multiple projects.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: https://axel-van-abkoude.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username: axel-van-abkoude
