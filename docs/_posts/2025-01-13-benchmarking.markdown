@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Code Benchmarking"
-#categories: benchmarking cpu-performance caches
+tags: benchmarking cpu-performance caches
 ---
 
 #Hi mom
