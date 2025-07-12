@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Coding Adventures with Axel
 email: axel@vanabkou.de
-description: | #fasjkdhfka
+description: 
   A look into the rabbithole that relates to high performance programming.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://axel-van-abkoude.github.io # the base hostname & protocol for your site, e.g. http://example.com
@@ -27,6 +27,15 @@ markdown: kramdown
 theme: minima
 #plugins:
 #  - jekyll-feed
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:title
+      #    order:
+      #      - benchmarking.md
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -4,3 +4,4 @@
 
 layout: home
 ---
+Hi i am index.md
