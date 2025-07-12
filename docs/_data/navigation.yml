@@ -1,7 +1,7 @@
 - name: home
   link: /
 - name: about
-  link: /about.html
+  link: /about/
 - name: posts
-  link: /posts.html
+  link: /posts/
 

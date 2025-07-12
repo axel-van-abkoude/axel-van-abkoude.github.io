@@ -1,0 +1,2 @@
+- [ ] remove posts from index.md
+- [ ] make posts pretty in posts.html

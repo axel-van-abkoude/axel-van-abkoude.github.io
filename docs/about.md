@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: whoami
 permalink: /about/
 ---
 Hi i'm about.md
