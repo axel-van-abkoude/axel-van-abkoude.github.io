@@ -1,0 +1,50 @@
+<header class="site-header">
+  <div class="container">
+    <h1 class="site-title">
+      {{ page.title }}
+    </h1>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">/</a>
+      <a href="{{ '/about' | relative_url }}">whoami</a>
+      <a href="{{ '/posts' | relative_url }}">man</a>
+    </nav>
+  </div>
+</header>
+<style type="text/css" media="screen">
+.site-header {
+  background: black;
+  color: green;
+  border-bottom: 1px solid green;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 3rem;
+  font-style: monospace;
+  color: green;
+}
+
+.site-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-nav a {
+  color: #ddd;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.site-nav a:hover {
+  color: #fff;
+}
+</style>

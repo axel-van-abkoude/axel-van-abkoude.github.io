@@ -3,13 +3,44 @@ layout: default
 title: posts
 permalink: /posts/
 ---
-<h3>posts</h3>
+
+<!--
+<style>
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px #666;
+  user-select: none;
+  background: lightgreen;
+}
+
+li:hover {
+  border-color: #777;
+  box-shadow: 3px 3px 5px #333;
+  cursor: pointer;
+}
+
+li:active {
+  box-shadow: inset 0 1px 1px #666;
+}
+</style>
+--!>
+
+<h2>posts</h2>
 
 <ul>
   {% for post in site.posts %}
+  <a href="{{ post.url }}">
     <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      {{ post.excerpt }}
+        <h3>{{ post.title }} | {{ post.author }} | {{ post.date | date_to_string }}</h3>
     </li>
+  </a>
   {% endfor %}
 </ul>
